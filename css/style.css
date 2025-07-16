@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -21,6 +23,7 @@ form, main {
 
 main {
     display: none;
+    overflow: hidden;
 }
 
 footer {
@@ -42,11 +45,11 @@ button {
 }
 
 h2 {
-    font-size: 10em;
+    font-size: 15vh;
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 5vh;
     color: #a0a0a0;
 }
 

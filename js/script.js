@@ -55,7 +55,7 @@ function welcomeButton() {
     chordQueue.push(getNextChord());
     updateQueue();
 
-    curIntervalID = setInterval(updateQueue, 60 * 1000 / tempo.value);
+    curIntervalID = setInterval(updateQueue, 60 * 4 * 1000 / tempo.value);
 }
 
 function contentButton() {
