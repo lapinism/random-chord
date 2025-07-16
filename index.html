@@ -10,31 +10,45 @@
         <form>
             <h1>Random Chord Practice</h1>
             <section>
-                <label>I <input type="checkbox" id="one"></label>
-                <label>II <input type="checkbox" id="two"></label>
-                <label>III <input type="checkbox" id="three"></label>
-                <label>IV <input type="checkbox" id="four"></label>
-                <label>V <input type="checkbox" id="five"></label>
-                <label>VI <input type="checkbox" id="six"></label>
-                <label>VII <input type="checkbox" id="seven"></label>
+                <p>Note</p>
+                <label for="one">I</label>
+                <input type="checkbox" id="one" checked>
+                <label for="two">II</label>
+                <input type="checkbox" id="two" checked>
+                <label for="three">III</label>
+                <input type="checkbox" id="three" checked>
+                <label for="four">IV</label>
+                <input type="checkbox" id="four" checked>
+                <label for="five">V</label>
+                <input type="checkbox" id="five" checked>
+                <label for="six">VI</label>
+                <input type="checkbox" id="six" checked>
+                <label for="seven">VII</label>
+                <input type="checkbox" id="seven" checked>
                 <hr>
+                <p>Accidental</p>
+                <label>b <input type="checkbox" id="flat"></label>
+                <label># <input type="checkbox" id="sharp"></label>
+                <hr>
+                <p>Chord</p>
                 <label>7 <input type="checkbox" id="dominantSeventh"></label>
                 <label>M7 <input type="checkbox" id="majorSeventh"></label>
                 <label>m7 <input type="checkbox" id="minorSeventh"></label>
                 <hr>
-                <label>preview count <input type="range" min="0" max="5"></label>
+                <label>BPM <input type="number" min="1" max="600" value="60" id="tempo"></label>
             </section>
             <section>
-                <button type="button" onclick="welcomeButton()">Go!</button>
-                <button type="reset">reset</button>
+                <button type="submit" onclick="welcomeButton()">Go!</button>
+                <button type="reset">Reset</button>
             </section>
         </form>
         <main onclick="contentButton()">
-            <h2>IIm7</h2>
+            <h2></h2>
+            <h3></h3>
         </main>
         <footer>
             <hr>
-            <p>Made by <a href="https://github.com/lapinism">@lapinism</a>. 2025.</p>
+            <p>Made by <a href="https://github.com/lapinism">@lapinism</a>.</p>
         </footer>
         <script src="./js/script.js"></script>
     </body>
