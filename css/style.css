@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E201F;
+    color: #FCFCFE;
+}
+
+form, main {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    display: none;
+}
+
+footer {
+    width: 100vw;
+    padding: 15px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    position: absolute;
+    bottom: 0;
+
+    text-align: center;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+h2 {
+    font-size: 10em;
+}
+
+a {
+    color: inherit;
+}

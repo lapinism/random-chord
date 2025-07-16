@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+            <h1>Random Chord Practice</h1>
+            <section>
+                <label>I <input type="checkbox" id="one"></label>
+                <label>II <input type="checkbox" id="two"></label>
+                <label>III <input type="checkbox" id="three"></label>
+                <label>IV <input type="checkbox" id="four"></label>
+                <label>V <input type="checkbox" id="five"></label>
+                <label>VI <input type="checkbox" id="six"></label>
+                <label>VII <input type="checkbox" id="seven"></label>
+                <hr>
+                <label>7 <input type="checkbox" id="dominantSeventh"></label>
+                <label>M7 <input type="checkbox" id="majorSeventh"></label>
+                <label>m7 <input type="checkbox" id="minorSeventh"></label>
+                <hr>
+                <label>preview count <input type="range" min="0" max="5"></label>
+            </section>
+            <section>
+                <button type="button" onclick="welcomeButton()">Go!</button>
+                <button type="reset">reset</button>
+            </section>
+        </form>
+        <main onclick="contentButton()">
+            <h2>IIm7</h2>
+        </main>
+        <footer>
+            <hr>
+            <p>Made by <a href="https://github.com/lapinism">@lapinism</a>. 2025.</p>
+        </footer>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
